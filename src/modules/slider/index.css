@@ -9,8 +9,9 @@
 .slider-dot{
 	font-size: 0;
 	text-align: center;
-	top: -33px;
-	position: relative;
+	margin-top: -33px;
+	position: absolute;
+	width: 100%;
 }
 .slider-dot a{
 	display: inline-block;

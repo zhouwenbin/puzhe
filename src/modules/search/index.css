@@ -24,10 +24,17 @@
 	border: none;
 	border-radius: 5px;
 	font-size: 16px;
-	background:#0b419b url('img/search.png') no-repeat 19px center;
-	padding-left: 19px
+	background:#0b419b;
 }
 .search-link a{
 	margin: 0 10px;
 	color: #999;
+}
+.search-icon{
+	width: 16px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(img/search.png?__sprite);
+	margin-right: 14px;
 }

@@ -20,9 +20,7 @@
 	padding-top: 5px;
 	padding-right: 40px;
 }
-.header2 img{
-	vertical-align: middle;
-}
+
 .header2-change{
 	border:1px solid #ccc;
 	margin-left: 3px;
@@ -38,4 +36,18 @@
 	border-color: transparent #a3a1a1 #a3a1a1 transparent;
 	right: 0;
 	bottom:0;
+}
+.header2-logo{
+	display: inline-block;
+	vertical-align: middle;
+	width: 137px;
+	height: 36px;
+	background-image:url(img/logo.png?__sprite);
+}
+.header2-certificate{
+	display: inline-block;
+	vertical-align: middle;
+	width: 137px;
+	height: 36px;
+	background-image:url(img/certificate.png?__sprite);
 }
