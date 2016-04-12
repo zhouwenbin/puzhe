@@ -1,6 +1,15 @@
 *{
 	box-sizing:border-box;
 }
+h2,
+h3,
+h4,
+p,
+ul,
+dl,
+dd{
+	margin: 0;
+}
 body{
 	font-family: arial,'微软雅黑';
 	font-size: 12px;
@@ -12,28 +21,15 @@ a{
 	text-decoration: none;
 }
 ul{
-	margin: 0;
 	padding: 0;
 }
 li{
 	list-style: none;
 }
 h2{
-	margin: 0;
 	font-weight: normal;
 }
-h3{
-	margin: 0;
-}
-p{
-	margin: 0;
-}
-dl{
-	margin: 0;
-}
-dd{
-	margin: 0;
-}
+
 .clearfix:before,
 .clearfix:after {
   content: '';

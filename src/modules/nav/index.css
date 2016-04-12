@@ -24,3 +24,7 @@
 	font-size: 14px;
 	background: #ffeb54;
 }
+.nav-ul li a:hover{
+	background: #fff;
+	font-weight: bold;
+}
