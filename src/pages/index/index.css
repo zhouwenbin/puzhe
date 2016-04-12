@@ -1,4 +1,11 @@
 @import url('../../base/normalize.css?__inline');
 @import url('../../base/base.css?__inline');
+@import url('../../base/layout.css?__inline');
 @import url('../../modules/header/index.css?__inline');
 @import url('../../modules/header2/index.css?__inline');
+@import url('../../modules/nav/index.css?__inline');
+@import url('../../modules/slider/index.css?__inline');
+@import url('../../modules/limit/index.css?__inline');
+@import url('../../modules/honour/index.css?__inline');
+@import url('../../modules/announce/index.css?__inline');
+@import url('../../modules/floor/index.css?__inline');

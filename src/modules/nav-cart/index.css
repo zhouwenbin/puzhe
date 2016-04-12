@@ -1,0 +1,29 @@
+.nav-cart{
+	background: #fff;
+	width: 180px;
+	border-radius: 2px;
+	position: absolute;
+	right: 27px;
+	top: 50%;
+	margin-top: -14px;
+}
+.nav-cart a{
+	color: #0b419b;
+	display: block;
+}
+.nav-cart-icon{
+	background-image: url(img/cart.png?__sprite);
+	width: 17px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav-cart-text{
+	display: inline-block;
+	border-right: 1px solid #ffe300;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 42px;
+	width: 133px;
+	margin-right: 15px;
+}

@@ -1,7 +1,41 @@
 @import url('../../modules/search/index.css?__inline');
+.header2{
+	overflow: hidden;
+	padding-top: 32px;
+	padding-bottom: 24px;
+}
 .header2-c1{
 	float: left;
+	margin-right: 104px;
+	padding-top: 6px;
+}
+.header2-c1 img{
+	margin-right: 7px;
 }
 .header2-c2{
 	float:left;
+}
+.header2-c3{
+	float: right;
+	padding-top: 5px;
+	padding-right: 40px;
+}
+.header2 img{
+	vertical-align: middle;
+}
+.header2-change{
+	border:1px solid #ccc;
+	margin-left: 3px;
+	position: relative;
+	display: inline-block;
+	padding: 0 5px;
+}
+.header2-change:before{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 3px;
+	border-color: transparent #a3a1a1 #a3a1a1 transparent;
+	right: 0;
+	bottom:0;
 }
