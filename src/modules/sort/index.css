@@ -1,0 +1,58 @@
+.sort-btn{
+	display: inline-block;
+	width: 61px;
+	line-height: 31px;
+	background: #ffffff;
+	border:1px solid #dfdfdf;
+	text-align: center;
+	margin-left: -1px;
+}
+.sort-btn.disabled{
+	background: #f8f8f8;
+}
+.sort-prev,
+.sort-next{
+	display: inline-block;
+	vertical-align: middle;
+	width: 9px;
+	height: 17px;
+}
+.sort-prev{
+	background-image: url(img/prev.png?__sprite);
+}
+.sort-next{
+	background-image: url(img/next.png?__sprite);
+}
+.sort-page{
+	font-size: 14px;
+	margin-right: 10px;
+	vertical-align: middle;
+	color: #666;
+}
+.sort{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.sort-c1{
+	float: left;
+}
+.sort-c1 ul,
+.sort-c1 li{
+	display: inline-block;
+}
+.sort-c1 ul{
+	margin-left: 50px;
+}
+.sort-c1 li{
+	width: 80px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+.sort-c1 li.active{
+	border-bottom: 4px solid #ffe300;
+	font-weight: bold;
+}
+.sort-c2{
+	float: right;
+	font-size: 0;
+}

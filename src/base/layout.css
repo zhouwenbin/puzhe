@@ -14,3 +14,15 @@
 .layout-r1c2{
 	overflow: hidden;
 }
+.layout-r2{
+	overflow: hidden;
+	margin-bottom: 33px;
+}
+.layout-r2c1{
+	width: 188px;
+	float: left;
+	margin-right: 48px;
+}
+.layout-r2c2{
+	overflow: hidden;
+}

@@ -1,0 +1,29 @@
+.page{
+	font-size: 0;
+	text-align: right;
+}
+.page span{
+	font-size: 14px;
+	margin-left: 10px;
+}
+.page a{
+	display: inline-block;
+	width: 55px;
+	height: 45px;
+	text-align: center;
+	border:1px solid #dfdfdf;
+	font-size: 14px;
+	color: #666;
+	line-height: 45px;
+	margin-left: 10px;
+}
+.page a.active{
+	background: #ffe300;
+	border:none;
+	font-weight: bold;
+}
+.page .page-next{
+	width: 97px;
+	background: #ffe300;
+	border:none;
+}

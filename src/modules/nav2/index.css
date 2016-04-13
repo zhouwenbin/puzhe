@@ -1,0 +1,30 @@
+@import url('../../modules/nav-cart/index.css?__inline');
+@import url('../../modules/sidebar2/index.css?__inline');
+.nav{
+	background: #ffe300;
+	border-bottom: 4px solid #0b419b;
+}
+.nav .layout-center{
+	position: relative;
+}
+.nav-ul{
+	overflow: hidden;
+	padding-left: 220px;
+}
+.nav-ul li{
+	float: left;
+	margin-right: 2px;
+}
+.nav-ul li a{
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	width: 140px;
+	text-align: center;
+	font-size: 14px;
+	background: #ffeb54;
+}
+.nav-ul li a:hover{
+	background: #fff;
+	font-weight: bold;
+}

@@ -1,0 +1,44 @@
+.sift{
+	margin-bottom: 30px;
+}
+.sift dt,
+.sift dd{
+	height: 38px;
+	line-height: 38px;
+	padding-left:19px;
+	display: inline-block;
+	width: 90px;
+}
+.sift dl{
+	border:1px solid #dddddd;
+	margin-top: -1px;
+}
+.sift dt{
+	border-right:1px solid #dddddd;
+	background: #f8f8f8;
+}
+.sift-select{
+	margin-bottom: 20px;
+	color: #666;
+	font-size: 14px;
+}
+.sift-label{
+	display: inline-block;
+	padding-left: 6px;
+	padding-right: 8px;
+	border:1px solid #dfdfdf;
+	line-height: 28px;
+	color: #999;
+}
+.sift-label span{
+	color: #194fa8;
+	margin-right: 19px;
+}
+.sift-label-close{
+	display: inline-block;
+	vertical-align: middle;
+	width: 11px;
+	height: 11px;
+	background-image: url(img/close.png?__sprite);
+	text-indent: -999em;
+}

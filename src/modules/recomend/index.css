@@ -1,0 +1,72 @@
+.recommend{
+	margin-bottom: 24px;
+}
+.recommend h2{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 9px;
+	font-size: 18px;
+	background: #f6f6f6;
+	margin-bottom: 20px;
+}
+.recommend-icon{
+	width: 30px;
+	height: 30px;
+	background-image: url(img/icon.png?__sprite);
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 11px;
+}
+.recommend-img{
+	height: 140px;
+	text-align: center;
+	margin-bottom: 28px;
+}
+.recommend-img:after{
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: 0;
+}
+.recommend img{
+	max-width: 140px;
+	max-height: 140px;
+}
+.recommend h3{
+	font-size: 14px;
+	margin-bottom: 11px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.recommend-price{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.recommend-price strong{
+	color: #ff0000;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.recommend-price del{
+	color: #999;
+	vertical-align: middle;
+}
+.recommend ul{
+	overflow: hidden;
+}
+.recommend li{
+	width: 20%;
+	float: left;
+	padding:0 23px 64px;
+}
+.recommend-limit{
+	color: #fff;
+	background: #ff2c2c;
+	font-size: 12px;
+	display: inline-block;
+	padding:2px 3px;
+	vertical-align: middle;
+	margin-right: 7px;
+}
