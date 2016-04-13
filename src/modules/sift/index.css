@@ -42,3 +42,6 @@
 	background-image: url(img/close.png?__sprite);
 	text-indent: -999em;
 }
+.sift dd a:hover{
+	color: #194fa8;
+}

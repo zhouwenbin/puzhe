@@ -17,6 +17,10 @@
 	line-height: 45px;
 	margin-left: 10px;
 }
+.page a:hover{
+	border:4px solid #ffe300;
+	line-height: 39px;
+}
 .page a.active{
 	background: #ffe300;
 	border:none;

@@ -42,13 +42,15 @@
 .goods-price del{
 	color: #999;
 }
-.goods ul{
-	overflow: hidden;
-}
+
 .goods li{
 	width: 25%;
 	float: left;
-	padding:0 23px 46px;
+	padding:23px;
+}
+.goods li:hover{
+	box-shadow: 0 0 #e5e5e5,
+				0 0 6px rgba(0,0,0,0.35);
 }
 .goods-btn{
 	height: 38px;

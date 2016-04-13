@@ -1,0 +1,13 @@
+@import url('../../base/normalize.css?__inline');
+@import url('../../base/base.css?__inline');
+@import url('../../base/layout.css?__inline');
+@import url('../../modules/header/index.css?__inline');
+@import url('../../modules/header2/index.css?__inline');
+@import url('../../modules/login-banner/index.css?__inline');
+@import url('../../modules/copyright/index.css?__inline');
+.header2-c2{
+	display: none;
+}
+.header2-city{
+	display: none;
+}

@@ -8,4 +8,8 @@
 @import url('../../modules/recomend/index.css?__inline');
 @import url('../../modules/safeguard/index.css?__inline');
 @import url('../../modules/footer/index.css?__inline');
+@import url('../../modules/copyright/index.css?__inline');
 @import url('../../modules/menu/index.css?__inline');
+.header-c1{
+	display: none;
+}

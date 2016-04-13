@@ -1,8 +1,7 @@
 .footer-r1{
 	padding-bottom: 36px;
 	overflow: hidden;
-	border-bottom: 4px solid #ffe300;
-	margin-bottom: 20px;
+	
 }
 .footer-r1c1{
 	float:left;
@@ -61,9 +60,4 @@
 	background-image: url(img/phone.png?__sprite);
 	vertical-align: middle;
 	margin-right: 9px;
-}
-.footer-copyright{
-	text-align: center;
-	margin-bottom: 41px;
-	color: #999;
 }

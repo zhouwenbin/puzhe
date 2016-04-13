@@ -1,0 +1,14 @@
+@import url('../../modules/login/index.css?__inline');
+.login-banner{
+	background: url(img/banner.png) center top;
+	height: 480px;
+	margin-bottom: 68px;
+}
+.login-banner .layout-center{
+	position: relative;
+}
+.login-banner .login{
+	position: absolute;
+	right: 0;
+	top: 27px;
+}
