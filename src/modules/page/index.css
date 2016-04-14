@@ -26,6 +26,9 @@
 	border:none;
 	font-weight: bold;
 }
+.page a.active:hover{
+	line-height: 45px;
+}
 .page .page-next{
 	width: 97px;
 	background: #ffe300;

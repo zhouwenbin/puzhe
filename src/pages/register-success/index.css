@@ -2,6 +2,6 @@
 @import url('../../base/base.css?__inline');
 @import url('../../base/layout.css?__inline');
 @import url('../../modules/header/index.css?__inline');
-@import url('../../modules/header2-login/index.css?__inline');
-@import url('../../modules/login-banner/index.css?__inline');
+@import url('../../modules/header2-register/index.css?__inline');
+@import url('../../modules/register-success/index.css?__inline');
 @import url('../../modules/copyright/index.css?__inline');

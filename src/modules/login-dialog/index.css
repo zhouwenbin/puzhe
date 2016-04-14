@@ -1,50 +1,60 @@
-.login{
+.login-dialog{
 	background: #fff;
-	width: 408px;
+	width: 494px;
+	border:4px solid rgb(191, 191, 191);
+	border:4px solid rgba(191, 191, 191,0.45);
+	position: fixed;
+	left: 50%;
+	margin-left: -247px;
+	top: 100px;
 }
-.login-header{
+.login-dialog-header{
 	overflow: hidden;
 	margin-bottom: 9px;
+	background: #f9f9f9;
+	height: 43px;
+	line-height: 43px;
+	padding: 0 15px;
 }
-.login-noaccount{
+.login-dialog-noaccount{
 	float: right;
 	color: #999;
 }
-.login-noaccount a{
+.login-dialog-noaccount a{
 	color: #265ab1;
 }
-.login-noaccount a:hover{
+.login-dialog-noaccount a:hover{
 	text-decoration: underline;
 }
-.login h2{
+.login-dialog h2{
 	font-size: 16px;
 	font-weight: bold;
 	float: left;
 }
-.login input:focus{
+.login-dialog input:focus{
 	outline: none;
 }
-.login form{
-	padding: 35px 46px 20px;
+.login-dialog form{
+	padding: 9px 81px 20px 89px;
 	border-bottom: 1px dashed #c6c6c6;
 }
-.login-input{
+.login-dialog-input{
 	border:1px solid #d9d9d9;
 }
-.login-input.active{
+.login-dialog-input.active{
 	border-color: #4279d5;
 }
-.login-input input{
+.login-dialog-input input{
 	border:none;
 	width: 270px;
 	line-height: 38px;
 	height: 38px;
 	padding-left: 10px;
 }
-.login-input{
+.login-dialog-input{
 	margin-bottom: 20px;
 }
-.login-input label{
+.login-dialog-input label{
 	display: inline-block;
 	width: 35px;
 	height: 38px;
@@ -52,20 +62,20 @@
 	background: #f6f6f6;
 	font-size: 14px;
 }
-.login-input.active label{
+.login-dialog-input.active label{
 	background: #eff5ff;
 }
-.login-input.active .login-phone{
+.login-dialog-input.active .login-dialog-phone{
 	background-image: url(img/phone-active.png?__sprite);
 }
-.login-input.active .login-lock{
+.login-dialog-input.active .login-dialog-lock{
 	background-image: url(img/lock-active.png?__sprite);
 }
-.login-verify{
+.login-dialog-verify{
 	margin-bottom: 20px;
 	font-size: 0;
 }
-.login-verify input{
+.login-dialog-verify input{
 	border:1px solid #d9d9d9;
 	width: 140px;
 	vertical-align: middle;
@@ -75,55 +85,55 @@
 	font-size: 14px;
 	margin-right: 15px;
 }
-.login-verify.active input{
+.login-dialog-verify.active input{
 	border-color: #4279d5;
 }
-.login-verify img{
+.login-dialog-verify img{
 	vertical-align: middle;
 }
 
 
-.login-input label:after{
+.login-dialog-input label:after{
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
 	height: 100%;
 	width: 0;
 }
-.login-auto{
+.login-dialog-auto{
 	margin-bottom: 20px;
 	overflow: hidden;
 }
-.login-auto label{
+.login-dialog-auto label{
 	float: left;
 	color: #999;
 }
-.login-auto input{
+.login-dialog-auto input{
 	margin-right: 9px;
 }
-.login-auto a{
+.login-dialog-auto a{
 	float: right;
 	color: #999;
 }
-.login-auto a:hover{
+.login-dialog-auto a:hover{
 	text-decoration: underline;
 	color: #333;
 }
-.login-phone{
+.login-dialog-phone{
 	display: inline-block;
 	vertical-align: middle;
 	width: 12px;
 	height: 20px;
 	background-image: url(img/phone.png?__sprite);
 }
-.login-lock{
+.login-dialog-lock{
 	display: inline-block;
 	vertical-align: middle;
 	width: 13px;
 	height: 16px;
 	background-image: url(img/lock.png?__sprite);
 }
-.login-webchat{
+.login-dialog-webchat{
 	display: inline-block;
 	vertical-align: middle;
 	width: 24px;
@@ -131,7 +141,7 @@
 	background-image: url(img/webchat.png?__sprite);
 	margin-left: 20px;
 }
-.login-qq{
+.login-dialog-qq{
 	display: inline-block;
 	vertical-align: middle;
 	width: 17px;
@@ -139,7 +149,7 @@
 	background-image: url(img/qq.png?__sprite);
 	margin-left: 20px;
 }
-.login-weibo{
+.login-dialog-weibo{
 	display: inline-block;
 	vertical-align: middle;
 	width: 22px;
@@ -147,7 +157,7 @@
 	background-image: url(img/weibo.png?__sprite);
 	margin-left: 20px;
 }
-.login-alipay{
+.login-dialog-alipay{
 	display: inline-block;
 	vertical-align: middle;
 	width: 20px;
@@ -155,7 +165,7 @@
 	background-image: url(img/alipay.png?__sprite);
 	margin-left: 20px;
 }
-.login button{
+.login-dialog button{
 	width: 100%;
 	height: 40px;
 	line-height: 40px;
@@ -166,28 +176,28 @@
 	border-radius: 2px;
 	border:none;
 }
-.login button:hover{
+.login-dialog button:hover{
 	opacity: 0.8;
 	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
 }
 
-.login-other{
+.login-dialog-other{
 	padding:26px 45px;
 	color: #999;
 }
-.login-tip{
+.login-dialog-tip{
 	height: 26px;
 	margin-bottom: 5px;
 }
 
-.login-error{
+.login-dialog-error{
 	background: #faf1f1;
 	border:1px solid #e76464;
 	height: 26px;
 	line-height: 26px;
 	color: #e43a3d;
 }
-.login-error-icon{
+.login-dialog-error-icon{
 	display: inline-block;
 	vertical-align: middle;
 	width: 14px;
@@ -195,18 +205,27 @@
 	margin:0 10px;
 	background-image: url(img/error.png?__sprite);
 }
-.login-success{
+.login-dialog-success{
 	background: #f2fff7;
 	border:1px solid #88d1c0;
 	height: 26px;
 	line-height: 26px;
 	color: #56bfa7;
 }
-.login-success-icon{
+.login-dialog-success-icon{
 	display: inline-block;
 	vertical-align: middle;
 	width: 14px;
 	height: 14px;
 	margin:0 10px;
 	background-image: url(img/success.png?__sprite);
+}
+
+.login-dialog-close{
+	width: 14px;
+	height: 14px;
+	background-image: url(img/close.png?__sprite);
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 83px;
 }

@@ -1,0 +1,28 @@
+.register-success{
+	text-align: center;
+	padding-top: 106px;
+	padding-bottom: 128px;
+	border:1px solid #e0e0e0;
+	margin-bottom: 40px;
+	margin-top: 38px;
+}
+.register-success-icon{
+	width: 68px;
+	height: 68px;
+	background-image: url(img/success.png?__sprite);
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 32px;
+}
+.register-success-text{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+.register-success h2{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.register-success a{
+	color: #265ab1;
+}
