@@ -5,7 +5,15 @@
 @import url('../../modules/header2/index.css?__inline');
 @import url('../../modules/nav2/index.css?__inline');
 @import url('../../modules/breadcrumb/index.css?__inline');
-
+@import url('../../modules/slider2/index.css?__inline');
+@import url('../../modules/item/index.css?__inline');
+@import url('../../modules/goods-aside2/index.css?__inline');
+@import url('../../modules/goods-aside/index.css?__inline');
+@import url('../../modules/detail-tab/index.css?__inline');
+@import url('../../modules/detail-table/index.css?__inline');
+@import url('../../modules/detail/index.css?__inline');
+@import url('../../modules/comment-tab/index.css?__inline');
+@import url('../../modules/comment-list/index.css?__inline');
 @import url('../../modules/page/index.css?__inline');
 @import url('../../modules/safeguard/index.css?__inline');
 @import url('../../modules/footer/index.css?__inline');

@@ -1,0 +1,24 @@
+.detail-table{
+	margin-bottom: 40px;
+}
+.detail-table table{
+	border-collapse: collapse;
+	width: 100%;
+
+}
+.detail-table th{
+	font-weight: normal;
+}
+.detail-table th,
+.detail-table td{
+	border: 1px solid #e8e8e8;
+	height: 33px;
+	line-height: 33px;
+}
+.detail-table td{
+	padding-left: 17px;
+}
+.detail-table .even th,
+.detail-table .even td{
+	background: #f9f9f9
+}

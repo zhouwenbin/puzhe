@@ -25,3 +25,31 @@
 .layout-r2c2{
 	margin-left: 236px;
 }
+.layout-r3{
+	overflow: hidden;
+}
+.layout-r3c1{
+	float: left;
+	width: 400px;
+	margin-right: 43px;
+}
+.layout-r3c2{
+	float: left;
+	width: 529px;
+}
+.layout-r3c3{
+	width: 190px;
+	float: right;
+}
+.layout-r4{
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+.layout-r4c1{
+	float: left;
+	width: 190px;
+	margin-right: 20px;
+}
+.layout-r4c2{
+	overflow: hidden;
+}
