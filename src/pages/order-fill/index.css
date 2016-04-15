@@ -1,0 +1,9 @@
+@import url('../../base/normalize.css?__inline');
+@import url('../../base/base.css?__inline');
+@import url('../../base/layout.css?__inline');
+@import url('../../modules/header/index.css?__inline');
+@import url('../../modules/header2-order/index.css?__inline');
+@import url('../../modules/receiving/index.css?__inline');
+@import url('../../modules/payment/index.css?__inline');
+@import url('../../modules/invoice/index.css?__inline');
+@import url('../../modules/copyright/index.css?__inline');

@@ -1,0 +1,65 @@
+.receiving{
+	margin-bottom: 30px;
+}
+.receiving h2{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.receiving-body{
+	border: 1px solid #eee;
+	padding: 30px 58px 10px;
+}
+.receiving button {
+	border-radius: 4px;
+	background-color: rgb(38, 90, 177);
+	width: 176px;
+	height: 40px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	margin-left: 63px;
+}
+.receiving label{
+	display: inline-block;
+	width: 5em;
+	text-align: right;
+	margin-right: 36px;
+}
+.receiving li{
+	margin-bottom: 20px;
+}
+.receiving select{
+	width: 146px;
+	height: 40px;
+	border: 1px solid #d9d9d9;
+	padding-left: 11px;
+	margin-right: 12px;
+	background: #fff;
+	border-radius: 0;
+}
+.receiving input{
+	border: 1px solid #d9d9d9;
+	padding-left: 11px;
+	height: 40px;
+	line-height: 40px;
+}
+.receiving-adress{
+	width: 686px;
+}
+.receiving-landing{
+	margin-left: 55px;
+	margin-right: 28px;
+}
+.receiving-area{
+	width: 56px;
+	margin-right: 12px;
+}
+.receiving-consignee,
+.receiving-phone{
+	width: 176px;
+}
+.receiving-telphone{
+	width: 156px;
+}

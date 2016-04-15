@@ -1,0 +1,36 @@
+.step{
+	display: inline-block;
+	position: relative;
+}
+.step:before{
+	content: '';
+	border-top: 2px solid #ddd;
+	width: 250px;
+	position: absolute;
+	left: 113px;
+	top: 7px;
+	z-index: -1;
+}
+.step li{
+	display: inline-block;
+	color: #ccc;
+	text-align: center;
+	margin-left: 80px;
+}
+.step .active{
+	color: #265ab1;
+}
+.step li:before{
+	content: '';
+	display: block;
+	width:13px;
+	height: 13px;
+	border-radius: 50%;
+	border:2px solid #ddd;
+	margin: 0 auto 15px;
+	background: #fff;
+}
+.step .active:before{
+	border-color: #265ab1;
+	background: #fff135;
+}

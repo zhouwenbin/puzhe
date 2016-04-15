@@ -1,0 +1,30 @@
+.payment{
+	margin-bottom: 30px;
+}
+.payment h2{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.payment-body{
+	border: 1px solid #eee;
+	padding-top: 17px;
+}
+.payment li{
+	height: 50px;
+	line-height: 50px;
+}
+.payment .active{
+	background: #f8f8f8;
+}
+.payment input{
+	margin-left: 158px;
+	margin-right: 13px;
+	vertical-align: middle;
+}
+.payment span{
+	margin-left: 47px;
+}
+.payment-remind{
+	color: #ff3737;
+}
