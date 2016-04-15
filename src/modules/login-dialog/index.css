@@ -7,6 +7,7 @@
 	left: 50%;
 	margin-left: -247px;
 	top: 100px;
+	z-index: 999;
 }
 .login-dialog-header{
 	overflow: hidden;
@@ -178,7 +179,7 @@
 }
 .login-dialog button:hover{
 	opacity: 0.8;
-	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	filter: alpha(opacity=80);
 }
 
 .login-dialog-other{

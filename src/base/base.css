@@ -45,3 +45,17 @@ h2{
 .clearfix {
   zoom: 1; 
 }
+.hide{
+	display: none;
+}
+.mask{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	z-index: 999;
+}

@@ -8,6 +8,7 @@
 	margin-left: -247px;
 	top: 100px;
 	text-align: center;
+	z-index: 999;
 }
 .register-dialog-header{
 	overflow: hidden;
