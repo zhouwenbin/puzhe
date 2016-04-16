@@ -105,5 +105,25 @@
 	border-right: none;
 }
 .myorder .myorder-bag-num{
-	padding-top: 58px;
+	padding-top: 54px;
+	line-height: 23px;
+}
+.myorder .myorder-empty{
+	text-align: center;
+	padding: 80px 0;
+	border:none;
+}
+.myorder-empty-icon{
+	display: inline-block;
+	width: 48px;
+	height: 41px;
+	background: url(img/empty.png?__sprite);
+	margin-bottom: 28px;
+}
+.myorder-empty p{
+	font-size: 14px;
+}
+.myorder-empty a{
+	color: #265ab1;
+	margin-left: 20px;
 }
