@@ -53,3 +53,20 @@
 .layout-r4c2{
 	overflow: hidden;
 }
+.layout-r5 .layout-center{
+	display: table;
+	margin-bottom: 50px;
+	margin-top: 29px;
+	border: 1px solid #e9e9e9;
+}
+.layout-r5c1{
+	display: table-cell;
+	width: 210px;
+}
+.layout-r5c2{
+	display: table-cell;
+	border-left: 1px solid #e9e9e9;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+}

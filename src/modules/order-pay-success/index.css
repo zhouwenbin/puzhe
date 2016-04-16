@@ -1,0 +1,43 @@
+.order-pay-success{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+.order-pay-success .layout-center{
+	border: 1px solid #e0e0e0;
+	padding: 89px 0 80px 277px;
+}
+.order-pay-success-icon{
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	background-image: url(img/success.png?__sprite);
+	float: left;
+	margin-left: -72px;
+}
+.order-pay-success h2{
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.order-pay-success p{
+	color: #666;
+	margin-bottom: 25px;
+	font-size: 14px;
+	line-height: 26px;
+}
+.order-pay-success p span{
+	color: #333;
+}
+.order-pay-success p strong{
+	color:#ff3737;
+}
+.order-pay-success-btn{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 4px;
+	background-color: rgb(38, 90, 177);
+	width: 176px;
+	height: 40px;
+	line-height: 40px;
+}

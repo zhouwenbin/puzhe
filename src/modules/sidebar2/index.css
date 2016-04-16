@@ -2,6 +2,9 @@
 .sidebar:hover ul{
 	display: block;
 }
+.sidebar:hover .sidebar-arrow{
+	transform: rotate(180deg);
+}
 .sidebar>ul{
 	display: none;
 }
@@ -12,4 +15,5 @@
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 26px;
+	transition: all 0.2s linear;
 }

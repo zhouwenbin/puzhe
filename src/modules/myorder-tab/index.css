@@ -1,0 +1,27 @@
+.comment-tab{
+	margin-bottom: 41px;
+	padding-top: 20px;
+}
+.comment-tab ul{
+	font-size: 0;
+	border-bottom: 1px solid #e9e9e9;
+}
+.comment-tab li{
+	display:inline-block;
+	padding: 0 25px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: -1px;
+}
+.comment-tab .active{
+	border-bottom:2px solid #265ab1;
+}
+.comment-tab a{
+	display: block;
+	color: #555;
+}
+.comment-tab span{
+	color: #265ab1;
+}

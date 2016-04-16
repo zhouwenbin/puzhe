@@ -1,0 +1,109 @@
+.myorder{
+	margin-bottom: 30px;
+}
+.myorder th{
+	font-weight: normal;
+}
+.myorder-bag{
+	background: #f4f4f4;
+	border:1px solid #eee;
+	border-bottom: none;
+	height: 36px;
+	line-height: 36px;
+	margin: 20px -1px -2px -1px;
+	text-align: left;
+	padding-left: 18px;
+}
+.myorder-bag span{
+	color: #999;
+	margin-left: 25px;
+}
+.myorder-img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #eee;
+	font-size: 0;
+	display: inline-block;
+}
+.myorder-img:after{
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 100%;
+}
+.myorder-img img{
+	max-height: 78px;
+	max-width: 78px;
+	vertical-align: middle;
+}
+.myorder h3{
+	display: inline-block;
+	width: 165px;
+	line-height: 23px;
+	font-weight: normal;
+	margin-left: 25px;
+	vertical-align: -6px;
+}
+.myorder table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.myorder thead th{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.myorder td{
+	padding: 20px 14px;
+	border:1px solid #eee;
+	text-align: center;
+	vertical-align: top;
+}
+.myorder-btn-pay,
+.myorder-btn-confirm{
+	border-radius: 4px;
+	width: 82px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+}
+.myorder-btn-pay{
+	background-color: rgb(255, 55, 55);
+}
+.myorder-btn-confirm{
+	background: #265ab1;
+}
+.myorder-operate{
+	color: #555;
+	display: block;
+	text-align: center;
+	line-height: 24px;
+}
+.myorder-operate:hover{
+	color: #265ab1;
+}
+.myorder .myorder-infor{
+	text-align: left;
+	padding-left: 20px;
+}
+.myorder .myorder-goods{
+	padding: 0;
+}
+.myorder .myorder-goods td{
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+.myorder .myorder-goods tr:first-child td{
+	border-top: none;
+}
+.myorder .myorder-noborder{
+	border-right: none;
+}
+.myorder .myorder-bag-num{
+	padding-top: 58px;
+}
