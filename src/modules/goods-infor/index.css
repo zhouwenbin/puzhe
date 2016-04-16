@@ -1,0 +1,163 @@
+.goods-infor{
+	margin-bottom: 77px;
+}
+.goods-infor h2{
+	font-style: 16px;
+	font-weight: bold;
+}
+.goods-infor-header{
+	overflow: hidden;
+	margin-bottom: 16px;
+}
+.goods-infor-header-c1{
+	float: left;
+}
+.goods-infor-header-c2{
+	float: right;
+}
+
+.goods-infor table{
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	border:1px solid #eee;
+}
+
+.goods-infor dd{
+	font-size: 14px;
+	color: #666;
+}
+.goods-infor th{
+	height: 40px;
+	background: #f4f4f4;
+	font-weight: normal;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.goods-infor .col1{
+	width: 140px;
+	text-align: left;
+	padding-left: 40px;
+}
+.goods-infor-th2{
+	text-align: left;
+	width: 513px;
+}
+
+.goods-infor tbody td{
+	border-top:1px solid #eee;
+	padding: 20px 0;
+}
+
+.goods-infor-remind{
+	color: #ff0000
+}
+.goods-infor-img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 80px;
+	height: 80px;
+	font-size: 0;
+	border: 1px solid #eee;
+}
+.goods-infor-img:after{
+	content: '';
+	width: 0;
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+.goods-infor-img img{
+	vertical-align: middle;
+	max-width: 80px;
+	max-height: 80px;
+}
+.goods-infor-gift-img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+	font-size: 0;
+	border: 1px solid #eee;
+}
+.goods-infor-gift-img:after{
+	content: '';
+	width: 0;
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+.goods-infor-gift-img img{
+	vertical-align: middle;
+	max-width: 40px;
+	max-height: 40px;
+}
+
+.goods-infor-name{
+	line-height: 23px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 33px;
+	width: 235px;
+}
+.goods-infor-center{
+	text-align: center;
+}
+.goods-infor-tag{
+	display: inline-block;
+	vertical-align: middle;
+	height: 16px;
+	line-height: 16px;
+	color: #fff;
+	background: #ff2c2c;
+	padding: 0 3px;
+	margin-right: 15px;
+}
+.goods-infor .goods-infor-gift td{
+	border-top: none;
+	position: relative;
+}
+
+.goods-infor-gift-line{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 990px;
+	border-top:1px dashed #c6c6c6;
+}
+.goods-infor-submit{
+	background: #f4f4f4;
+	padding: 30px;
+	text-align: right;
+	border:1px solid #eee;
+}
+.goods-infor-submit dt,
+.goods-infor-submit dd{
+	display: inline-block;
+}
+.goods-infor-submit dl{
+	margin-bottom: 31px;
+}
+.goods-infor-submit p{
+	font-size: 14px;
+	margin-bottom: 21px;
+}
+.goods-infor-submit strong{
+	font-style: 18px;
+	color: #ff0000;
+	margin-left: 17px;
+}
+.goods-infor-submit dt{
+	margin-left: 26px;
+}
+
+.goods-infor-submit-btn {
+	display: inline-block;
+	color: #fff;
+	border-radius: 4px;
+	background-color: rgb(38, 90, 177);
+	width: 176px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}

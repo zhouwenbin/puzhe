@@ -6,4 +6,7 @@
 @import url('../../modules/receiving/index.css?__inline');
 @import url('../../modules/payment/index.css?__inline');
 @import url('../../modules/invoice/index.css?__inline');
+@import url('../../modules/settle/index.css?__inline');
+@import url('../../modules/goods-infor/index.css?__inline');
+@import url('../../modules/address/index.css?__inline');
 @import url('../../modules/copyright/index.css?__inline');

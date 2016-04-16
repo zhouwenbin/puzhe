@@ -12,23 +12,33 @@
 }
 .receiving button {
 	border-radius: 4px;
-	background-color: rgb(38, 90, 177);
-	width: 176px;
 	height: 40px;
 	font-size: 16px;
-	color: #fff;
-	font-weight: bold;
+	margin-right: 6px;
+}
+.receiving-confirm{
+	background-color: rgb(38, 90, 177);
 	border: none;
-	margin-left: 63px;
+	width: 176px;
+	font-weight: bold;
+	color: #fff;
+}
+.receiving-cancle{
+	background-color:#f8f8f8;
+	border:1px solid #d9d9d9;
+	width: 116px;
 }
 .receiving label{
-	display: inline-block;
 	width: 5em;
 	text-align: right;
 	margin-right: 36px;
+	float: left;
+	margin-left: -99px;
+	margin-top: 10px;
 }
 .receiving li{
 	margin-bottom: 20px;
+	padding-left: 99px;
 }
 .receiving select{
 	width: 146px;
