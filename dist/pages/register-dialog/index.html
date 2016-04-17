@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="/pages/register-dialog/index.css">
+  </head>
+  <body>
+    <div class="register-dialog">
+	<div class="register-dialog-header">
+		<h2>注册普泽大药房</h2>
+		<div class="register-dialog-noaccount">已有帐号?<a href="">点击登录>></a><div class="register-dialog-close"></div></div>
+	</div>
+	<div class="register-dialog-body">
+		<div class="register-dialog-input">
+			<label for="phone">手机号码：</label>
+			<input id="phone" type="text" placeholder="仅限中国大陆手机号">
+			<div class="register-dialog-success-icon"></div>
+		</div>
+		<div class="register-dialog-tip">
+			<div class="register-dialog-error"><div class="register-dialog-error-icon"></div>您的手机号码格式有误</div>
+		</div>
+		<div class="register-dialog-verify">
+			<label for="verify">短信验证码：</label>
+			<input id="verify" class="error" type="text" placeholder="点击右侧按钮获取验证码">
+			<a href="javascript:" class="register-dialog-verify-btn">获取短信验证码</a>
+		</div>
+		<div class="register-dialog-tip">
+			<div class="register-dialog-error"><div class="register-dialog-error-icon"></div>短信验证码输入有误，请重新输入</div>
+		</div>
+		<div class="register-dialog-input">
+			<label for="password">登录密码：</label>
+			<input id="password" type="password" placeholder="6-18位字母、数字或标点符号">
+		</div>
+		<div class="register-dialog-btn">
+			<button type="submit">同意协议并注册</button>
+			<a href="">《普泽大药房注册协议》</a>
+		</div>
+	</div>
+		
+</div>
+  </body>
+</html>

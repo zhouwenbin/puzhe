@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="/pages/order-fill/index.css">
+  </head>
+  <body>
+    <div class="header">
+  <div class="layout-center">
+		<div class="header-c1">
+			<a href="">收藏本站</a><a href="">关注普泽</a>
+		</div>
+		<div class="header-c2">
+			您好，欢迎来到XXX健康网！<span>|</span><a href="">立即登录</a><span>|</span><a href="">免费注册</a><span>|</span><a href="">订单查询</a><span>|</span><a href="">个人中心</a><span>|</span><a href="">帮助中心</a><span>|</span><a href="">全国热线：400-800-800</a>
+		</div>
+  </div>
+</div>
+    <div class="header2">
+  <div class="layout-center">
+  	<div class="header2-c1">
+      <div class="header2-logo"></div>
+  		<span class="header2-city">全国站<a class="header2-change" href="">切换城市</a></span>
+  	</div>
+    <div class="header2-c3">
+      <div class="step">
+	<ul>
+		<li class="active">确认订单</li>
+		<li>支付订单</li>
+		<li>支付成功</li>
+	</ul>
+</div>
+    </div>
+  </div>
+</div>
+    <div class="receiving">
+	<div class="layout-center">
+		<h2>收货信息</h2>
+		<div class="receiving-body">
+			<ul>
+				<li>
+					<label for="">收货地址：</label>
+					<select name="" id="">
+						<option value="">中国</option>
+					</select>
+					<select name="" id="">
+						<option value="">请选择</option>
+					</select>
+					<select name="" id="">
+						<option value="">请选择</option>
+					</select>
+				</li>
+				<li>
+					<label for="">详细地址：</label>
+					<input class="receiving-adress" type="text" placeholder="填写详细地址">
+				</li>
+				<li>
+					<label for="">收货人：</label>
+					<input class="receiving-consignee" type="text" placeholder="请填写收货人真实姓名">
+				</li>
+				<li>
+					<label for="">手机号：</label>
+					<input class="receiving-phone" type="text">
+					<span class="receiving-landing">固定电话（选填）</span>
+					<input class="receiving-area" type="text" placeholder="区号">
+					<input class="receiving-telphone" type="text">
+				</li>
+				<li>
+					<button class="receiving-confirm" type="submit">确认收货信息</button>
+					<button class="receiving-cancle">取消</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+    <div class="payment">
+	<div class="layout-center">
+		<h2>支付方式</h2>
+		<div class="payment-body">
+			<ul>
+				<li class="active">
+					<label><input type="radio" checked="checked">支付宝<span>国内最大的支付平台，交易安全更便捷</span><span class="payment-remind">首笔订单支付减5元</span></label>
+				</li>
+				<li>
+					<label><input type="radio">银行卡<span>支持多种银行卡、信用卡</span></label>
+				</li>
+				<li>
+					<label><input type="radio">银行转账</label>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+    <div class="invoice">
+	<div class="layout-center">
+		<h2>发票信息</h2>
+		<div class="invoice-body">
+			<ul>
+				<li>
+					<label><input type="radio">暂不要发票</label>
+				</li>
+				<li class="active">
+					<label><input type="radio" checked="checked">普通发票<span>部分商品可开增值税发票，如有需要，请联系客服。</label>
+					<div class="invoice-payable">
+						<label>发票抬头
+							<select name="" id="">
+								<option value="">请选择</option>
+							</select>
+							<input type="text">
+						</label>
+					</div>
+					<div class="invoice-content">
+						<label>发票内容
+							<select name="" id="">
+								<option value="">请选择</option>
+							</select>
+						</label>
+					</div>	
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+    <div class="settle">
+	<div class="layout-center">
+		<h2>结算信息</h2>
+		<div class="settle-body">
+			<ul>
+				<li class="settle-coupon">
+					<h3>使用优惠券</h3>
+					<div class="settle-text">
+						<a href="">使用兑换码兑换优惠券</a>
+						<table>
+							<thead>
+								<tr>
+									<th></th>
+									<th>优惠券</th>
+									<th>面值</th>
+									<th>有效期</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="active">
+									<td><input checked="checked" type="radio"></td>
+									<td><span>双11药品大促全场狂欢券</span></td>
+									<td><span>满0元减50元</span></td>
+									<td>2014年-02-01至2014年02-02</td>
+								</tr>
+								<tr>
+									<td><input type="radio"></td>
+									<td><span>双11药品大促全场狂欢券</span></td>
+									<td><span>满0元减50元</span></td>
+									<td>2014年-02-01至2014年02-02</td>
+								</tr>
+								<tr>
+									<td><input type="radio"></td>
+									<td><span>双11药品大促全场狂欢券</span></td>
+									<td><span>满0元减50元</span></td>
+									<td>2014年-02-01至2014年02-02</td>
+								</tr>
+								<tr>
+									<td><input type="radio"></td>
+									<td colspan="3">不使用优惠券</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- <p>账户中没有优惠券</p> -->
+					</div>
+				</li>
+				<li class="settle-score">
+					<h3>使用积分抵扣</h3>
+					<div class="settle-text">
+						<p>我的积分总额：<strong>29102</strong></p>
+						<!-- <div class="settle-score-used">使用<strong>20000</strong> 抵扣<strong class="settle-score-use-num">200</strong>元<button>取消抵扣</button></div> -->
+						<div class="settle-score-use">
+							<input type="text" placeholder="请输入积分数量"><button>使用</button>
+							<span class="settle-error">积分数量错误，请修改为100的倍数</span>
+							<!-- <span class="settle-error">积分不足，请修改</span> -->
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+    <div class="goods-infor">
+  <div class="layout-center">
+    <div class="goods-infor-header">
+      <div class="goods-infor-header-c1"><h2>商品信息</h2></div>
+      <div class="goods-infor-header-c2"><a href="">返回购物车修改商品</a></div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th class="col1">包裹</th>
+          <th class="goods-infor-th2">商品信息</th>
+          <th>单价（￥）</th>
+          <th>数量</th>
+          <th>小计（￥）</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="col1" rowspan="3">
+            包裹1
+          </td>
+          <td>
+            <div class="goods-infor-img">
+                <img src="/modules/goods-infor/img/goods.png" alt="">
+              </div>
+            <a class="goods-infor-name" href="">强生（Johnson）舒日隐形眼镜日抛30片装400度</a>
+
+          </td>
+          <td class="goods-infor-center"><div class="goods-infor-unit">12.00</div></td>
+          <td class="goods-infor-center">
+            <strong>1</strong>
+          </td>
+          <td class="goods-infor-center"><strong class="goods-infor-remind">12.00</strong></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="goods-infor-img">
+              <img src="/modules/goods-infor/img/goods.png" alt="">
+            </div>
+            <a class="goods-infor-name" href="">强生（Johnson）舒日隐形眼镜日抛30片装400度</a>
+          </td>
+          <td class="goods-infor-center"></td>
+          <td class="goods-infor-center">
+            <strong>1</strong>
+          </td>
+          <td class="goods-infor-center"><strong class="goods-infor-remind">12.00</strong></td>
+        </tr>
+        <tr class="goods-infor-gift">
+          <td colspan="2">
+            <div class="goods-infor-gift-line"></div>
+            <div class="goods-infor-tag">赠品</div>
+            <div class="goods-infor-gift-img">
+              <img src="/modules/goods-infor/img/gift.png" alt="">
+            </div>
+            <a class="goods-infor-name" href="">普通的棉签</a>
+          </td>
+          <td class="goods-infor-center">
+            <strong>1</strong>
+          </td>
+          <td></td>
+        </tr>  
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="5" class="goods-infor-submit">
+            <dl>
+              <dt>总商品金额：</dt>
+              <dd>￥0</dd>
+              <dt>国内邮费：</dt>
+              <dd>￥0</dd>
+              <dt>活动抵扣：</dt>
+              <dd>￥0</dd>
+              <dt>优惠券抵扣：</dt>
+              <dd>￥0</dd>
+            </dl>
+            <p>本次订单您需要支付：<strong>￥108.00</strong></p>
+            <a href="" class="goods-infor-submit-btn">提交订单</a>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+    <div class="address">
+  <div class="layout-center">
+    <h2>选择收货地址</h2>
+    <ul>
+      <li class="active">
+        <h3>李小华</h3>
+        <p><span class="address-phone">13982981928</span>001-0923928<br>
+        北京市 朝阳区 王府井大厦 18楼 1892 室</p>
+        <a href="">修改</a>
+      </li>
+      <li>
+        <h3>李小华</h3>
+        <p><span class="address-phone">13982981928</span>001-0923928<br>
+        北京市 朝阳区 王府井大厦 18楼 1892 室</p>
+        <a href="">修改</a>
+      </li>
+      <li>
+        <h3>李小华</h3>
+        <p><span class="address-phone">13982981928</span>001-0923928<br>
+        北京市 朝阳区 王府井大厦 18楼 1892 室</p>
+        <a href="">修改</a>
+      </li>
+      
+    </ul>
+    <a class="address-all" href="">显示全部收货信息</a>
+  </div>
+</div>
+    <div class="copyright">Copyright© 普泽大药房 2004-2015，All Rights Reserved</div>
+
+  </body>
+</html>
