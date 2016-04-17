@@ -61,12 +61,31 @@
 }
 .layout-r5c1{
 	display: table-cell;
+	vertical-align: top;
 	width: 210px;
 }
 .layout-r5c2{
+	vertical-align: top;
 	display: table-cell;
 	border-left: 1px solid #e9e9e9;
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-bottom: 30px;
+}
+.layout-r6 .layout-center{
+	display: table;
+	margin-bottom: 50px;
+	margin-top: 35px;
+	border: 1px solid #e9e9e9;
+}
+.layout-r6c1{
+	vertical-align: top;
+	display: table-cell;
+	width: 222px;
+}
+.layout-r6c2{
+	vertical-align: top;
+	display: table-cell;
+	border-left: 1px solid #e9e9e9;
+	padding: 40px 40px 105px;
 }

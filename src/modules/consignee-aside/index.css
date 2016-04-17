@@ -1,0 +1,23 @@
+.consignee-aside{
+	line-height: 26px;
+	padding: 33px 30px;
+}
+.consignee-aside-infor{
+	color: #888;
+	padding-bottom: 17px;
+	border-bottom: 1px dashed #c6c6c6;
+	margin-bottom: 14px;
+}
+.consignee-aside-infor dt{
+	display: inline-block;
+	width: 5em;
+}
+.consignee-aside-infor dd{
+	display: inline;
+}
+.consignee-aside-point dt{
+	color: #888;
+}
+.consignee-aside-point dd{
+	color: #555;
+}

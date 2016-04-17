@@ -1,0 +1,62 @@
+.order-progress{
+	margin-bottom: 40px;
+	border: 1px solid rgb(233, 233, 233);
+	padding: 20px 20px 26px;
+	position: relative;
+}
+.order-progress h2{
+	margin-bottom: 38px;
+}
+.order-progress li{
+	margin-bottom: 20px;
+	color: #888;
+}
+.order-progress li.active{
+	color: #333;
+}
+.order-progress-icon{
+	width: 174px;
+	height: 132px;
+	background-image: url(img/car.png?__sprite);
+	position: absolute;
+	right: 21px;
+	bottom: 17px;
+}
+.order-progress-tip{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(117, 154, 215);
+  background-color: rgb(243, 247, 255);
+  width: 455px;
+  height: 43px;
+  font-size: 14px;
+  line-height: 43px;
+  padding-left: 11px;
+  margin-top: 16px;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 3px;
+}
+.order-progress-tip span{
+	margin: 0 30px;
+}
+.order-progress-tip a{
+	color: #265ab1;
+}
+.order-progress-tip:before,
+.order-progress-tip:after{
+	content: '';
+	border-style: solid;
+	border-width: 9px 6px;
+	position: absolute;
+	left: 30px;
+}
+
+.order-progress-tip:before{
+	top: -18px;
+	border-color: transparent transparent rgb(117, 154, 215) transparent;
+}
+.order-progress-tip:after{
+	top: -16px;
+	border-color: transparent transparent rgb(243, 247, 255) transparent;
+}

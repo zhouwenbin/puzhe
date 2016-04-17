@@ -1,0 +1,20 @@
+@import url('../../base/normalize.css?__inline');
+@import url('../../base/base.css?__inline');
+@import url('../../base/layout.css?__inline');
+@import url('../../modules/header/index.css?__inline');
+@import url('../../modules/header2/index.css?__inline');
+@import url('../../modules/nav2/index.css?__inline');
+@import url('../../modules/consignee-aside/index.css?__inline');
+@import url('../../modules/order-infor/index.css?__inline');
+@import url('../../modules/order-tab/index.css?__inline');
+@import url('../../modules/order-progress/index.css?__inline');
+@import url('../../modules/goods-infor2/index.css?__inline');
+
+@import url('../../modules/safeguard/index.css?__inline');
+@import url('../../modules/footer/index.css?__inline');
+@import url('../../modules/copyright/index.css?__inline');
+@import url('../../modules/menu/index.css?__inline');
+@import url('../../modules/notify-dialog/index.css?__inline');
+.header-c1{
+	display: none;
+}
