@@ -1,0 +1,34 @@
+.order-nav{
+	padding: 40px 0;
+	margin-bottom: 32px;
+	border-bottom: 1px dashed #c6c6c6;
+}
+.order-nav-icon1,
+.order-nav-icon2,
+.order-nav-icon3{
+	display: inline-block;
+	vertical-align: middle;
+	width: 54px;
+	height: 54px;
+	margin-right: 15px;
+}
+.order-nav-icon1{
+	background-image: url(img/icon1.png?__sprite);
+}
+.order-nav-icon2{
+	background-image: url(img/icon2.png?__sprite);
+}
+.order-nav-icon3{
+	background-image: url(img/icon3.png?__sprite);
+}
+.order-nav ul{
+	overflow: hidden;
+	padding-left: 23px;
+}
+.order-nav li{
+	float: left;
+	margin: 0 40px;
+}
+.order-nav strong{
+	color: #265ab1;
+}

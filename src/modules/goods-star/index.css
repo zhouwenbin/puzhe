@@ -1,0 +1,57 @@
+
+.goods-star h2{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 41px;
+}
+.goods-star-img{
+	height: 140px;
+	text-align: center;
+	margin-bottom: 28px;
+}
+.goods-star-img:after{
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: 0;
+}
+.goods-star img{
+	max-width: 140px;
+	max-height: 140px;
+}
+.goods-star h3{
+	font-size: 14px;
+	margin-bottom: 11px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.goods-star-price{
+	font-size: 16px;
+}
+.goods-star-price strong{
+	color: #ff0000;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.goods-star-price del{
+	color: #999;
+	vertical-align: middle;
+}
+.goods-star ul{
+	overflow: hidden;
+}
+.goods-star li{
+	width: 25%;
+	float: left;
+}
+.goods-star-limit{
+	color: #fff;
+	background: #ff2c2c;
+	font-size: 12px;
+	display: inline-block;
+	padding:2px 3px;
+	vertical-align: middle;
+	margin-right: 7px;
+}
