@@ -55,6 +55,7 @@
 .comment abbr{
 	color: #ff3737;
 	text-decoration: none;
+	margin-right: 5px;
 }
 .comment label{
 	margin-right: 17px;
