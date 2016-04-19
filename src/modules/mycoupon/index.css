@@ -1,0 +1,26 @@
+.mycoupon{
+	margin-bottom: 42px;
+	padding-top: 37px;
+}
+.mycoupon h2{
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+.mycoupon-convert input{
+	width: 186px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	border: 1px solid #d9d9d9;
+	vertical-align: middle;
+}
+.mycoupon-convert button{
+	width: 76px;
+	height: 40px;
+	border: 1px solid #d9d9d9;
+	margin-left: -1px;
+	font-size: 14px;
+	background: #f5f5f5;
+	vertical-align: middle;
+}

@@ -1,0 +1,19 @@
+@import url('../../base/normalize.css?__inline');
+@import url('../../base/base.css?__inline');
+@import url('../../base/layout.css?__inline');
+@import url('../../modules/header/index.css?__inline');
+@import url('../../modules/header2/index.css?__inline');
+@import url('../../modules/nav2/index.css?__inline');
+@import url('../../modules/sidebar-center/index.css?__inline');
+
+@import url('../../modules/address2/index.css?__inline');
+@import url('../../modules/receiving/index.css?__inline');
+
+@import url('../../modules/safeguard/index.css?__inline');
+@import url('../../modules/footer/index.css?__inline');
+@import url('../../modules/copyright/index.css?__inline');
+@import url('../../modules/menu/index.css?__inline');
+@import url('../../modules/notify-dialog/index.css?__inline');
+.receiving h2{
+	display: none;
+}

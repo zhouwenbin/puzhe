@@ -1,0 +1,73 @@
+.address2{
+	margin-bottom: 25px;
+	padding-top: 37px;
+}
+.address2 h2{
+	font-style: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.address2 ul{
+	overflow: hidden;
+	margin-left: -15px;
+	vertical-align: middle;
+	font-size: 0;
+}
+.address2 li{
+	float: left;
+	font-size: 12px;
+	border: 1px solid #eee;
+	width: 287px;
+	height: 158px;
+	padding: 16px 18px;
+	position: relative;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.address2 li:before{
+	content: '';
+	width: 287px;
+	height: 4px;
+	background-image: url(img/bg.png?__sprite);
+	position: absolute;
+	left: -1px;
+	top: -1px;
+}
+.address2 li:after{
+	content: '';
+	position: absolute;
+	right: -3px;
+	bottom: -2px;
+	width: 35px;
+	height: 35px;
+	background-image: url(img/select.png?__sprite);
+}
+.address2 li.active:after{
+	background-image: url(img/select-active.png?__sprite);
+}
+.address2 h3{
+	font-style: 14px;
+	padding-bottom:10px;
+	border-bottom: 1px dashed #c6c6c6; 
+	margin-bottom: 9px;
+}
+.address2 p{
+	line-height: 26px;
+	margin-bottom: 23px;
+}
+.address2-link{
+	display: none;
+}
+.address2-link a{
+	color: #265ab1;
+	margin-right: 22px;
+}
+.address2 li.active .address2-link{
+	display: block;
+}
+.address2-phone{
+	margin-right: 25px;
+}
+.address2-all{
+	font-size: 14px;
+}
