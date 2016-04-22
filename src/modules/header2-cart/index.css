@@ -1,15 +1,1 @@
 @import url('../../modules/header2/index.css?__inline');
-.header2 h1{
-	font-size: 28px;
-	margin-left: 23px;
-	display: inline-block;
-	vertical-align: bottom;
-}
-.header2-num{
-	font-size: 18px;
-	margin-left: 23px;
-	display: inline-block;
-	vertical-align: bottom;
-	color: #666;
-	margin-left: 3px;
-}

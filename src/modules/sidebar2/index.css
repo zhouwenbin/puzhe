@@ -1,11 +1,11 @@
 @import url(../sidebar/index.css?__inline);
-.sidebar:hover ul{
+.sidebar2:hover ul{
 	display: block;
 }
-.sidebar:hover .sidebar-arrow{
+.sidebar2:hover .sidebar-arrow{
 	transform: rotate(180deg);
 }
-.sidebar>ul{
+.sidebar2>ul{
 	display: none;
 }
 .sidebar-arrow{

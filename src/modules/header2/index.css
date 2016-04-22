@@ -1,4 +1,5 @@
 @import url('../../modules/search/index.css?__inline');
+@import url('../../modules/step/index.css?__inline');
 .header2{
 	overflow: hidden;
 	margin-top: 32px;
@@ -50,4 +51,18 @@
 	width: 154px;
 	height: 36px;
 	background-image:url(img/certificate.png?__sprite);
+}
+.header2 h1{
+	font-size: 28px;
+	margin-left: 23px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.header2-num{
+	font-size: 18px;
+	margin-left: 23px;
+	display: inline-block;
+	vertical-align: bottom;
+	color: #666;
+	margin-left: 3px;
 }
