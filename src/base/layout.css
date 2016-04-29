@@ -91,3 +91,16 @@
 	border-left: 1px solid #e9e9e9;
 	padding: 40px 40px 105px;
 }
+
+.layout-r7{
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+.layout-r7c1{
+	float: left;
+	width: 152px;
+	margin-right: 20px;
+}
+.layout-r7c2{
+	overflow: hidden;
+}

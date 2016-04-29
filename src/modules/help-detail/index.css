@@ -1,0 +1,21 @@
+.help-detail{
+	padding-left: 20px;
+}
+.help-detail h1{
+	font-size: 20px;
+	padding-top: 12px;
+	padding-bottom: 19px;
+	border-bottom: 1px solid #dfdfdf;
+	margin-bottom: 14px;
+}
+.help-detail h2{
+	font-weight: bold;
+}
+.help-detail p{
+	margin-bottom: 26px;
+}
+.help-detail h2,
+.help-detail p{
+	font-size: 14px;
+	line-height: 26px;
+}

@@ -1,0 +1,39 @@
+.help-nav{
+	margin-bottom: 20px;
+}
+.help-nav ul{
+	margin-left: -15px;
+	overflow: hidden;
+}
+.help-nav li{
+	float: left;
+	margin-left: 15px;
+	width: 240px;
+	border: 1px solid #dfdfdf;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.04);
+	text-align: center;
+	padding: 50px 0;
+	font-size: 16px;
+	color: #555;
+}
+.help-nav-icon1,
+.help-nav-icon2,
+.help-nav-icon3,
+.help-nav-icon4{
+	width: 70px;
+	height: 78px;
+	display: inline-block;
+	margin-bottom: 19px;
+}
+.help-nav-icon1{
+	background-image: url(img/icon1.png?__sprite);
+}
+.help-nav-icon2{
+	background-image: url(img/icon2.png?__sprite);
+}
+.help-nav-icon3{
+	background-image: url(img/icon3.png?__sprite);
+}
+.help-nav-icon4{
+	background-image: url(img/icon4.png?__sprite);
+}

@@ -1,0 +1,15 @@
+.announcement{
+	background: #f8f8f8;
+	padding-left: 12px;
+	line-height: 39px;
+	color: #555;
+	margin-bottom: 20px;
+}
+.announcement-icon{
+	width: 14px;
+	height: 14px;
+	background-image: url(img/icon.png?__sprite);
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 13px;
+}
