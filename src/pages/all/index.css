@@ -60,7 +60,13 @@
 @import url('../../modules/sift/index.css?__inline');
 @import url('../../modules/slider2/index.css?__inline');
 @import url('../../modules/sort/index.css?__inline');
-
+@import url('../../modules/help-sidebar/index.css?__inline');
+@import url('../../modules/announcement/index.css?__inline');
+@import url('../../modules/help-nav/index.css?__inline');
+@import url('../../modules/question/index.css?__inline');
+@import url('../../modules/help-banner/index.css?__inline');
+@import url('../../modules/help-sidebar/index.css?__inline');
+@import url('../../modules/help-detail/index.css?__inline');
 
 @import url('../../modules/header/index.css?__inline');
 @import url('../../modules/header2/index.css?__inline');
