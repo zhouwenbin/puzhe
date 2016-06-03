@@ -43,6 +43,21 @@
 .sidebar-li:hover .sidebar-icon1{
 	background-image: url(img/icon1-hover.png?__sprite);
 }
+.sidebar-li:hover .sidebar-icon2{
+	background-image: url(img/icon2-hover.png?__sprite);
+}
+.sidebar-li:hover .sidebar-icon3{
+	background-image: url(img/icon3-hover.png?__sprite);
+}
+.sidebar-li:hover .sidebar-icon4{
+	background-image: url(img/icon4-hover.png?__sprite);
+}
+.sidebar-li:hover .sidebar-icon5{
+	background-image: url(img/icon5-hover.png?__sprite);
+}
+.sidebar-li:hover .sidebar-icon6{
+	background-image: url(img/icon6-hover.png?__sprite);
+}
 .sidebar-li:last-child{
 	border-bottom: none;
 }
